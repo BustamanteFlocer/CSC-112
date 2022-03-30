@@ -1,0 +1,7 @@
+; SLIME 2.24
+CL-USER> (defun dispEven (n1 n2 n3 n4 n5)
+           (loop for x being the elements of (list n1 n2 n3 n4 n5)
+                 if (evenp x)
+                 do (print x)))
+DISPEVEN
+CL-USER> 
